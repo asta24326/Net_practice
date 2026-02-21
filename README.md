@@ -1,11 +1,11 @@
 
 
-[cite_start]*This project has been created as part of the 42 curriculum by alvutina.* [cite: 158]
+*This project has been created as part of the 42 curriculum by alvutina.*
 
 # 🌐 NetPractice
 
 ## 📄 Description
-[cite_start]NetPractice is a general practical exercise designed to introduce the basics of computer networking[cite: 14]. [cite_start]The goal of this project is to configure small-scale networks by understanding TCP/IP addressing, subnet masks, and default gateways[cite: 67]. [cite_start]By solving 10 levels of network puzzles, I learned how to connect devices through routers and manage network communication within a gateway[cite: 15, 68].
+NetPractice is a general practical exercise designed to introduce the basics of computer networking. The goal of this project is to configure small-scale networks by understanding TCP/IP addressing, subnet masks, and default gateways. By solving 10 levels of network puzzles, I learned how to configure IP addresses, connect devices through a router, and understand the role of a gateway within a network.
 
 ### ✅ Result: 100/100
 
@@ -14,47 +14,48 @@
 ## ⚙️ Instructions
 
 ### Running the Interface
-[cite_start]To run the training interface, follow these steps[cite: 76, 78]:
-1. [cite_start]Download and extract the project files attached to the project's page[cite: 76, 77].
-2. [cite_start]Execute the `run.sh` script in your terminal to launch a local web server and open the interface in your browser[cite: 78].
-3. [cite_start]If `run.sh` fails, manually run the command `python3 -m http.server 49242` and navigate to `http://localhost:49242`[cite: 93].
+The project uses a web-based training interface. To launch it:
+1. Download the file attached to the project's page and extract it.
+2. Run the `run.sh` script in your terminal to launch a local web server.
+3. If the script fails, manually run `python3 -m http.server 49242` and navigate to `http://localhost:49242` in your browser.
 
 ### Configuration and Export
-* [cite_start]**Login**: You must enter your intranet login in the "Training" tab to use your personal configuration[cite: 95, 171].
-* [cite_start]**Solving**: Modify the unshaded fields in the network diagram until the network functions properly according to the objectives[cite: 136, 153].
-* [cite_start]**Exporting**: After completing each level, use the **[Get my config]** button to download your configuration file[cite: 139, 172].
+* **Login**: You must enter your intranet login in the "Training" tab to use your personal configuration. This is required for Moulinette to recognize your work.
+* **Solving**: Modify only the unshaded (white) fields in the network diagram.
+* **Checking**: Use the **[Check again]** button to verify if your configuration is correct.
+* **Exporting**: Once a level is cleared, click **[Get my config]** to download the configuration file.
 
 ### Submission Requirements
-* [cite_start]You must submit **10 exported configuration files** (one per level)[cite: 164, 170].
-* [cite_start]These files must be placed at the **root** of your Git repository[cite: 164, 171].
+* You must submit **10 exported configuration files** (one per level).
+* All 10 files must be placed at the **root** of your Git repository.
 
 ---
 
 ## 💡 Resources
 
 ### Networking Concepts Studied
-[cite_start]This project required an understanding of the following key concepts[cite: 163]:
-* [cite_start]**TCP/IP Addressing**: Principles of assigning unique addresses to network nodes[cite: 67].
-* [cite_start]**Subnet Masks**: Defining the network and host portions of an IP address[cite: 67, 154].
-* [cite_start]**Default Gateways**: Identifying the exit point for traffic heading to external networks[cite: 67].
-* [cite_start]**Routers and Switches**: Understanding how devices connect and route packets between different networks[cite: 154].
-* [cite_start]**OSI Layers**: The conceptual framework for application communication over a network[cite: 163].
+This project covers essential networking fundamentals:
+* **TCP/IP Addressing**: The system of assigning unique addresses to devices for network communication.
+* **Subnet Masks**: Used to determine the network and host portions of an IP address.
+* **Default Gateways**: The node that serves as an access point to other networks when no other route matches.
+* **Routers and Switches**: Devices used to connect different network segments and direct traffic.
+* **OSI Layers**: The conceptual model that characterizes the communication functions of a computing system.
 
 
 
 ### AI Usage
-[cite_start]AI tools were used during this project for the following tasks[cite: 161]:
-* [cite_start]**Structural Formatting**: Using AI to organize the README according to the specific 42 curriculum requirements[cite: 161].
-* [cite_start]**Technical Explanations**: Clarifying the logic behind subnet mask calculations and CIDR notation[cite: 161].
-* [cite_start]**Documentation Review**: Ensuring the clarity and accuracy of the instructions provided[cite: 161].
-* [cite_start]*Note: All networking levels were solved manually as external tools are prohibited during the final evaluation[cite: 176].*
+AI tools were utilized in the following capacity:
+* **Structural Formatting**: Organizing the README structure to meet all 42 curriculum requirements.
+* **Concept Clarification**: Explaining the mathematical breakdown of CIDR notation and subnetting.
+* **Troubleshooting**: Assisting in identifying common errors in routing tables.
+* *Note: All levels were solved manually as external tools are strictly prohibited during the defense.*
 
 ### Classic References
-* [cite_start]`man read`, `man malloc`, `man free`, `man open`[cite: 161].
-* [cite_start]42 Project Subject PDF: NetPractice[cite: 1, 161].
-* [Internet Protocol Suite (TCP/IP) documentation](https://en.wikipedia.org/wiki/Internet_protocol_suite).
+* `man read`, `man malloc`, `man free`, `man open`.
+* 42 Project Subject PDF: NetPractice.
+* [TCP/IP Addressing Guide](https://en.wikipedia.org/wiki/IP_address).
 
 ---
 
 ## ⚖️ Evaluation
-[cite_start]During the defense, you must successfully complete **three random levels** within a limited amount of time[cite: 174, 175]. [cite_start]No external tools are allowed, except for a simple calculator like `bc`[cite: 176, 177].
+During the defense, you must successfully complete **three random levels** generated by the interface. You will have a limited amount of time to solve them. No external tools are allowed, though a simple calculator like `bc` is tolerated.
