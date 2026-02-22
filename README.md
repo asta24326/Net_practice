@@ -2,6 +2,9 @@
 
 # 🌐 NetPractice
 
+<img width="970" height="880" alt="Screenshot from 2026-02-22 11-53-56" src="https://github.com/user-attachments/assets/95454b05-aea7-449c-a754-3fd3f530c762" />
+
+
 ## 📄 Description
 NetPractice is a general practical exercise designed to introduce the basics of computer networking. The goal of this project is to configure small-scale networks by understanding TCP/IP addressing, subnet masks, and default gateways. By solving 10 levels of network puzzles, I learned how to configure IP addresses, connect devices through a router, and understand the role of a gateway within a network.
 
